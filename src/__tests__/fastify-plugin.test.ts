@@ -23,10 +23,10 @@ describe('Fastify plugin', () => {
       method: 'POST',
       payload: [
         {
-          message: 'Hello world',
-          level: 'info',
-          timestamp: '2017-05-29T12:53:46.000Z',
-          payload: {
+          msg: 'Hello world',
+          level: 30,
+          time: 1483531681798,
+          ctx: {
             browser: 'Firefox',
           },
         },
@@ -49,15 +49,15 @@ describe('Fastify plugin', () => {
           "reqId": "req-1",
         },
         Object {
+          "ctx": Object {
+            "browser": "Firefox",
+          },
           "hostname": "[Redacted]",
           "level": 30,
           "msg": "Hello world",
-          "payload": Object {
-            "browser": "Firefox",
-          },
           "pid": "[Redacted]",
           "reqId": "req-1",
-          "timestamp": "2017-05-29T12:53:46.000Z",
+          "time": 1483531681798,
           "type": "frontend-logger",
         },
         Object {

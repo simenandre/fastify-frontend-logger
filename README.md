@@ -22,11 +22,14 @@ default logger object:
 ```json
 [
   {
-    "message": "Hello world",
-    "level": "info",
-    "timestamp": "2017-05-29T12:53:46.000Z",
-    "payload": {
+    "msg": "Hello world",
+    "level": 30,
+    "time": 1483531681798,
+    "ctx": {
       "browser": "Firefox"
+    },
+    "payload": {
+      "users": ["cobraz"]
     }
   }
 ]

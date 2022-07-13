@@ -1,17 +1,18 @@
 import { Static, Type } from '@sinclair/typebox';
 
 export const logSchema = Type.Object({
-  message: Type.String(),
+  msg: Type.String(),
   level: Type.Union([
-    Type.Literal('trace'),
-    Type.Literal('debug'),
-    Type.Literal('info'),
-    Type.Literal('warn'),
-    Type.Literal('error'),
+    Type.Literal(10),
+    Type.Literal(20),
+    Type.Literal(30),
+    Type.Literal(40),
+    Type.Literal(50),
+    Type.Literal(60),
   ]),
-  logger: Type.Optional(Type.String()),
-  timestamp: Type.Optional(Type.String()),
-  stacktrace: Type.Optional(Type.String()),
+  time: Type.Optional(Type.Number()),
+  stack: Type.Optional(Type.String()),
+  ctx: Type.Optional(Type.Record(Type.String(), Type.Any())),
   payload: Type.Optional(Type.Record(Type.String(), Type.Any())),
 });
 

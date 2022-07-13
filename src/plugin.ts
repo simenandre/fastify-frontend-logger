@@ -26,6 +26,15 @@ const defaultLoggerOptions = {
   type: 'frontend-logger',
 };
 
+const levels = {
+  10: 'trace',
+  20: 'debug',
+  30: 'info',
+  40: 'warn',
+  50: 'error',
+  60: 'fatal',
+} as const;
+
 export const frontendLoggerPlugin: FastifyPluginAsync<
   LogLevelRemotePluginOptions
 > = async (fastify, options) => {
@@ -46,8 +55,9 @@ export const frontendLoggerPlugin: FastifyPluginAsync<
     handler: async (req, reply) => {
       const logger = req.log.child(loggerOptions);
       req.body.forEach(log => {
-        const { level, message, ...logObject } = log;
-        logger[level](logObject, message);
+        const { level, msg, ...logObject } = log;
+        const lvl = levels[level];
+        logger[lvl](logObject, msg);
       });
 
       return reply.code(204).send();

@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@sinclair/typebox": "^0.24.19",
-    "fastify": "^4.2.1",
+    "fastify": "^4.10.2",
     "pino": "^8.1.0"
   },
   "devDependencies": {

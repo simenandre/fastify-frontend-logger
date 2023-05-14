@@ -421,6 +421,7 @@ packages:
 
   /@cobraz/prettier@2.0.0(prettier@2.5.1):
     resolution: {integrity: sha512-3Kug2HKJPW96INaTFGtqPP5tJaMRwhZkA2e2mLQ7REp2Wzd0Brmg4uL94zAFKCPEmX59iUTZF0GAHtljACqwWA==}
+    deprecated: This package is deprecated. Use @simenandre/prettier instead.
     peerDependencies:
       prettier: '*'
     dependencies:

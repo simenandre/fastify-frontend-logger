@@ -621,10 +621,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@sinclair/typebox@^0.24.19":
-  version "0.24.19"
-  resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.24.19.tgz#5297278e0d8a1aea084685a3216074910ac6c113"
-  integrity sha512-gHJu8cdYTD5p4UqmQHrxaWrtb/jkH5imLXzuBypWhKzNkW0qfmgz+w1xaJccWVuJta1YYUdlDiPHXRTR4Ku0MQ==
+"@sinclair/typebox@^0.28.0":
+  version "0.28.10"
+  resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.28.10.tgz#dddd3243c3020166b52d46d2ced8073ed89759e8"
+  integrity sha512-ZRpJZFpr2yq1vAenq2qspUKs34CBC97LOMghUuTTEveFONVExQAYEB8Tcjy9NlPj8oVlSysK15Hzkf7Ox6x3lA==
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.3"

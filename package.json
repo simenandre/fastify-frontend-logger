@@ -4,7 +4,7 @@
   "repository": "github:simenandre/fastify-frontend-logger",
   "license": "Apache-2.0",
   "main": "dist/main.js",
-  "packageManager": "pnpm@8.5.0",
+  "packageManager": "pnpm@8.5.1",
   "scripts": {
     "dev": "tsnd --respawn src/main.ts",
     "lint": "eslint . --ext .ts,.tsx",

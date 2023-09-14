@@ -32,7 +32,7 @@ jobs:
       - name: Build 🔨
         run: pnpm build
 
-      - uses: codecov/codecov-action@v3
+      - uses: codecov/codecov-action@v4
 
       - if: ${{ steps.release.outputs.release_created }}
         run: yarn publish

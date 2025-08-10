@@ -18,10 +18,10 @@ dependencies:
 devDependencies:
   '@bjerk/eslint-config':
     specifier: ^4.0.0
-    version: 4.0.0(@typescript-eslint/eslint-plugin@5.59.5)(@typescript-eslint/parser@5.59.5)(eslint-config-prettier@8.8.0)(eslint-plugin-eslint-comments@3.2.0)(eslint-plugin-import@2.27.5)(eslint-plugin-prettier@4.2.1)(eslint-plugin-promise@6.1.1)(eslint-plugin-unicorn@46.0.1)(eslint@8.40.0)(prettier@2.5.1)
+    version: 4.0.0(@typescript-eslint/eslint-plugin@5.59.5)(@typescript-eslint/parser@5.59.5)(eslint-config-prettier@8.8.0)(eslint-plugin-eslint-comments@3.2.0)(eslint-plugin-import@2.27.5)(eslint-plugin-prettier@4.2.1)(eslint-plugin-promise@6.1.1)(eslint-plugin-unicorn@46.0.1)(eslint@8.40.0)(prettier@3.0.0)
   '@cobraz/prettier':
     specifier: ^2.0.0
-    version: 2.0.0(prettier@2.5.1)
+    version: 2.0.0(prettier@3.0.0)
   '@tsconfig/node16':
     specifier: ^1.0.2
     version: 1.0.2
@@ -38,8 +38,8 @@ devDependencies:
     specifier: ^29.0.0
     version: 29.0.0(@types/node@18.0.0)(ts-node@10.4.0)
   prettier:
-    specifier: ^2.5.1
-    version: 2.5.1
+    specifier: ^3.0.0
+    version: 3.0.0
   ts-jest:
     specifier: ^29.0.0
     version: 29.0.0(@babel/core@7.21.8)(jest@29.0.0)(typescript@5.0.2)
@@ -393,7 +393,7 @@ packages:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
     dev: true
 
-  /@bjerk/eslint-config@4.0.0(@typescript-eslint/eslint-plugin@5.59.5)(@typescript-eslint/parser@5.59.5)(eslint-config-prettier@8.8.0)(eslint-plugin-eslint-comments@3.2.0)(eslint-plugin-import@2.27.5)(eslint-plugin-prettier@4.2.1)(eslint-plugin-promise@6.1.1)(eslint-plugin-unicorn@46.0.1)(eslint@8.40.0)(prettier@2.5.1):
+  /@bjerk/eslint-config@4.0.0(@typescript-eslint/eslint-plugin@5.59.5)(@typescript-eslint/parser@5.59.5)(eslint-config-prettier@8.8.0)(eslint-plugin-eslint-comments@3.2.0)(eslint-plugin-import@2.27.5)(eslint-plugin-prettier@4.2.1)(eslint-plugin-promise@6.1.1)(eslint-plugin-unicorn@46.0.1)(eslint@8.40.0)(prettier@3.0.0):
     resolution: {integrity: sha512-xcoaQg4Y3zquJEEen9df5vh1VOHp6kOJqP0Obw0Z2UiH02runHMJ22xxnhBV3A/98jE8iTyhQWHz3A0GifFtwA==}
     engines: {node: '>=16'}
     peerDependencies:
@@ -417,19 +417,19 @@ packages:
       eslint-config-prettier: 8.8.0(eslint@8.40.0)
       eslint-plugin-eslint-comments: 3.2.0(eslint@8.40.0)
       eslint-plugin-import: 2.27.5(@typescript-eslint/parser@5.59.5)(eslint@8.40.0)
-      eslint-plugin-prettier: 4.2.1(eslint-config-prettier@8.8.0)(eslint@8.40.0)(prettier@2.5.1)
+      eslint-plugin-prettier: 4.2.1(eslint-config-prettier@8.8.0)(eslint@8.40.0)(prettier@3.0.0)
       eslint-plugin-promise: 6.1.1(eslint@8.40.0)
       eslint-plugin-unicorn: 46.0.1(eslint@8.40.0)
-      prettier: 2.5.1
+      prettier: 3.0.0
     dev: true
 
-  /@cobraz/prettier@2.0.0(prettier@2.5.1):
+  /@cobraz/prettier@2.0.0(prettier@3.0.0):
     resolution: {integrity: sha512-3Kug2HKJPW96INaTFGtqPP5tJaMRwhZkA2e2mLQ7REp2Wzd0Brmg4uL94zAFKCPEmX59iUTZF0GAHtljACqwWA==}
     deprecated: This package is deprecated. Use @simenandre/prettier instead.
     peerDependencies:
       prettier: '*'
     dependencies:
-      prettier: 2.5.1
+      prettier: 3.0.0
     dev: true
 
   /@cspotcode/source-map-consumer@0.8.0:
@@ -1789,7 +1789,7 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-prettier@4.2.1(eslint-config-prettier@8.8.0)(eslint@8.40.0)(prettier@2.5.1):
+  /eslint-plugin-prettier@4.2.1(eslint-config-prettier@8.8.0)(eslint@8.40.0)(prettier@3.0.0):
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -1802,7 +1802,7 @@ packages:
     dependencies:
       eslint: 8.40.0
       eslint-config-prettier: 8.8.0(eslint@8.40.0)
-      prettier: 2.5.1
+      prettier: 3.0.0
       prettier-linter-helpers: 1.0.0
     dev: true
 
@@ -3437,9 +3437,9 @@ packages:
       fast-diff: 1.2.0
     dev: true
 
-  /prettier@2.5.1:
-    resolution: {integrity: sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==}
-    engines: {node: '>=10.13.0'}
+  /prettier@3.0.0:
+    resolution: {integrity: sha512-zBf5eHpwHOGPC47h0zrPyNn+eAEIdEzfywMoYn2XPi0P44Zp0tSq64rq0xAREh4auw2cJZHo9QUob+NqCQky4g==}
+    engines: {node: '>=14'}
     hasBin: true
     dev: true
 

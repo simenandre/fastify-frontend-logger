@@ -18,7 +18,7 @@
     "extends": "@bjerk/eslint-config"
   },
   "dependencies": {
-    "@sinclair/typebox": "^0.28.0",
+    "@sinclair/typebox": "^0.34.0",
     "fastify": "^4.2.1",
     "pino": "^8.1.0"
   },

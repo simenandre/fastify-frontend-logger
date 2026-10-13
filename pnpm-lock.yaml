@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@sinclair/typebox':
-    specifier: ^0.28.0
-    version: 0.28.0
+    specifier: ^0.34.0
+    version: 0.34.0
   fastify:
     specifier: ^4.2.1
     version: 4.2.1
@@ -811,8 +811,8 @@ packages:
     resolution: {integrity: sha512-XJfwUVUKDHF5ugKwIcxEgc9k8b7HbznCp6eUfWgu710hMPNIO4aw4/zB5RogDQz8nd6gyCDpU9O/m6qYEWY6yQ==}
     dev: true
 
-  /@sinclair/typebox@0.28.0:
-    resolution: {integrity: sha512-9Nk7ny/CiaManM7DZ+NAFqBpnNKEPjAzn+Fqb/xID2uaIYTlqsWrm6ph8x4wxhfQFdpDFF3qvToC6GD5xyCwsA==}
+  /@sinclair/typebox@0.34.0:
+    resolution: {integrity: sha512-BwY8C9W0/LP34i0Nzj0Xj2My0a7vBA1JGC7G0NxvQBBdHyXBf1ar27d79drRdhkgdlLhcyEpQHJKdpdoxZd+tA==}
     dev: false
 
   /@sinonjs/commons@3.0.0:
